@@ -1,0 +1,28 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  max-width: 1440px;
+}
+
+.page__video {
+  margin-top: 30px;
+  width: 70%;
+  height: 500px;
+  border-radius: 10px;
+  object-fit: fill;
+}
+
+.page__error p {
+  font-size: 14px;
+  line-height: 20px;
+  color: red;
+}
+
+@media screen and (max-width: 768px) {
+  .page__video {
+    width: 100%;
+    height: 500px;
+  }
+}
